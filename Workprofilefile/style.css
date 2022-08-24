@@ -9,7 +9,7 @@
 
 :root{
     /* ===== Colors ===== */
-    --body-color: #E4E9F7;
+    /* --body-color: #000000; */
     --sidebar-color: #FFF;
     --primary-color: #695CFE;
     --primary-color-light: #F6F5FF;
@@ -180,25 +180,9 @@ body.dark .sidebar header .toggle{
     border: none;
     background-color: var(--primary-color-light);
     color: var(--text-color);
-    border-radius: 6px;
-    font-size: 17px;
-    font-weight: 500;
-    transition: var(--tran-05);
-}
-.sidebar li a{
-    list-style: none;
-    height: 100%;
-    background-color: transparent;
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    border-radius: 6px;
-    text-decoration: none;
-    transition: var(--tran-03);
-}
+ 
 
-.sidebar li a:hover{
+.sidebar li a:hover {
     background-color: var(--primary-color);
 }
 .sidebar li a:hover .icon,
@@ -306,4 +290,21 @@ body.dark .switch::before{
 }
 body.dark .home .text{
     color: var(--text-color);
+}
+   border-radius: 6px;
+    font-size: 17px;
+    font-weight: 500;
+    transition: var(--tran-05);
+}
+.sidebar li a{
+    list-style: none;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: var(--tran-03);
 }
